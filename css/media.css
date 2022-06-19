@@ -50,6 +50,19 @@
         width: calc(100% + 40px);
         padding: 10px 20px;
     }
+    .dropdown-toggle::after{
+        right: 15px;
+    }
+    .navbar-nav .dropdown-menu {
+        border: none;
+        border-left: 1px solid #000000;
+        border-radius: 0;
+        margin: 0 0 0 15px;
+    }
+    /* Section three */
+    .backgroud-sec-three {
+        height: 537px;
+    }
 
     /* youtube */
     .video {

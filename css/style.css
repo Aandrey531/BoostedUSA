@@ -59,15 +59,19 @@ p {
 .nav-link {
     padding: 8px 15px !important;
 }
-
+#header .nav-item .nav-link:hover {
+    color: #FF4A32!important;
+}
 .nav-link,
-.navbar,
-.dropdown-item {
+.navbar {
     color: #000000 !important;
     font-size: 14px;
     letter-spacing: 1px;
     text-transform: uppercase;
-
+}
+.dropdown-item {
+    text-transform: none;
+    font-size: 14px;
 }
 
 .navbar {
@@ -155,7 +159,7 @@ button:focus {
     margin: 0 0 2px 0;
     transition: all 0.5s;
     position: absolute;
-    right: 15px;
+    right: 0;
     top: 14px;
 }
 .show.dropdown-toggle::after {
@@ -165,9 +169,9 @@ button:focus {
 }
 .navbar-nav .dropdown-menu {
     border: none;
-    border-left: 1px solid #000000;
     border-radius: 0;
-    margin: 0 0 0 15px;
+    margin: 0;
+    --bs-dropdown-min-width: none;
 }
 
 /* Section One */
@@ -193,18 +197,17 @@ button:focus {
     text-align: center;
     font-weight: 400;
     font-size: 14px;
-    line-height: 31px;
+    line-height: 33px;
     border-radius: 35px;
     height: 33px;
     transition: all 0.5s;
-    border: 2px solid #FF4A32;
     margin: 10px;
 }
 
 .my_btn:hover {
-    background-color: transparent;
-    color: #000000;
-    line-height: 31px;
+    background-color: #363636;
+    color: #ffffff;
+    line-height: 33px;
     transition: all 0.5s;
 }
 #section_one p {
