@@ -422,7 +422,7 @@ button:focus {
     color: #FF4A32;
     font-weight: 400;
 }
-.accessories .sale::after {
+.sale::after {
     content: "Sale";
     position: absolute;
     top: 0;
@@ -501,4 +501,52 @@ button:focus {
 }
 #footer p {
     font-size: 12px;
+}
+
+
+
+
+/* Electric Skateboards */
+.electric-skateboards {
+    padding-top: 53px;
+    margin: 0 0 30px 0;
+}
+.electric-skateboards .container {
+    padding: 0 30px;
+}
+.electric-skateboards .my-line {
+    margin: 30px 0 30px 0;
+}
+.electric-skateboards-text {
+    margin: 50px 0 0 0;
+}
+.skateboards a {
+    text-decoration: none;
+}
+.skateboards {
+    margin: 30px 0 0 0;
+}
+.skateboard-item {
+    text-align: center;
+    position: relative;
+    margin: 10px 0;
+}
+.skateboard-item p {
+    color: #FF4A32;
+}
+.skateboard-item span {
+    color: #000000;
+}
+.price {
+    display: flex;
+    justify-content: center;
+}
+.price .sale-price,
+.price .main-price {
+    color: #000000;
+    margin: 0 2px;
+}
+.price .main-price.close-price {
+    text-decoration: line-through;
+    color: #FF4A32;
 }
