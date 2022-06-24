@@ -5,14 +5,14 @@ let salePrice = document.querySelectorAll(".sale-price");
 let cardItem = document.querySelectorAll(".card-item");
 let mainPrice = document.querySelectorAll(".main-price");
 
-
-
 navbarToggler.addEventListener("click", () => {
   burger.classList.toggle("trans");
   navbarCollapse.classList.toggle("menu-go");
 });
 
 
+
+// Main page
 $('.accessories').flickity({
   freeScroll: true,
   contain: true,
@@ -21,7 +21,23 @@ $('.accessories').flickity({
   cellAlign: 'left'
 });
 
+// scooter main
+$('.carousel-main').flickity({
+  wrapAround: true,
+  pageDots: false
+});
+$('.carousel-nav').flickity({
+  freeScroll: true,
+  asNavFor: '.carousel-main',
+  contain: true,
+  draggable: false,
+  pageDots: false,
+  prevNextButtons: false,
+  cellAlign: 'center'
+});
 
+
+// icon sail
 function sale() {
   for (let i = 0; i < salePrice.length; i++) {
     if (salePrice[i].innerHTML) {
@@ -34,6 +50,4 @@ function sale() {
   }
 
 }
-
-
 sale();

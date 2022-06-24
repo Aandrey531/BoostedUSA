@@ -33,13 +33,16 @@
     .my-menu {
         order: 0;
     }
+
     .collapse:not(.show) {
         display: block;
     }
+
     .collapse:not(.menu-go) {
         transform: translateX(-110%);
         background-color: rgba(255, 255, 255, 0.9);
     }
+
     .collapse {
         transition: all 1s;
         position: absolute;
@@ -50,15 +53,18 @@
         width: calc(100% + 40px);
         padding: 10px 20px;
     }
-    .dropdown-toggle::after{
+
+    .dropdown-toggle::after {
         right: 15px;
     }
+
     .navbar-nav .dropdown-menu {
         border: none;
         border-left: 1px solid #000000;
         border-radius: 0;
         margin: 0 0 0 15px;
     }
+
     /* Section three */
     .backgroud-sec-three {
         height: 537px;
@@ -73,6 +79,12 @@
     /* Section Eight */
     #section_eight .container {
         padding: 50px 60px;
+    }
+
+
+    /* scooters */
+    .scooter-slide img {
+        max-height: 500px;
     }
 
 }
@@ -147,5 +159,11 @@
 
     #footer .container .row {
         text-align: center;
+    }
+
+    /* scooters */
+    .carousel-nav img {
+        /* height: 100px; */
+        width: 60px;
     }
 }

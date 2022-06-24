@@ -14,6 +14,7 @@ body {
 .container-fluid {
     padding: 0;
 }
+
 p {
     margin: 0;
     font-size: 15px;
@@ -48,6 +49,7 @@ p {
     width: 100%;
     margin: 0 auto;
 }
+
 #header {
     position: fixed;
     max-width: 1440px;
@@ -55,13 +57,17 @@ p {
     padding: 0 20px;
     background-color: #ffffff;
     z-index: 100;
+    box-shadow: 2px 0 10px #292c3d57;
 }
+
 .nav-link {
     padding: 8px 15px !important;
 }
+
 #header .nav-item .nav-link:hover {
-    color: #FF4A32!important;
+    color: #FF4A32 !important;
 }
+
 .nav-link,
 .navbar {
     color: #000000 !important;
@@ -69,6 +75,7 @@ p {
     letter-spacing: 1px;
     text-transform: uppercase;
 }
+
 .dropdown-item {
     text-transform: none;
     font-size: 14px;
@@ -93,18 +100,22 @@ p {
 .order {
     order: -1;
 }
+
 button.navbar-toggler {
-    outline: none!important;
-    border: none!important;
+    outline: none !important;
+    border: none !important;
 }
+
 button:focus {
-    outline: none!important;
+    outline: none !important;
 }
+
 .navbar-toggler:focus {
     text-decoration: none;
     outline: 0;
     box-shadow: none;
 }
+
 .burger {
     width: 20px;
     height: 2px;
@@ -114,6 +125,7 @@ button:focus {
     margin: 10px 0;
     transition: all 0.5s;
 }
+
 .burger::after {
     content: "";
     position: absolute;
@@ -121,9 +133,10 @@ button:focus {
     height: 2px;
     background-color: #000000;
     display: block;
-    margin: 6px 0 0 0 ;
+    margin: 6px 0 0 0;
     transition: all 0.5s;
 }
+
 .burger::before {
     content: "";
     position: absolute;
@@ -134,19 +147,23 @@ button:focus {
     margin: -6px 0 0 0;
     transition: all 0.5s;
 }
+
 .burger.trans {
     background-color: transparent;
     transition: all 0.5s;
 }
+
 .burger.trans::after {
     transform: rotate(45deg) translateY(-4px) translateX(-3px);
     transition: all 0.5s;
 }
+
 .burger.trans::before {
     transform: rotate(-45deg) translateY(5.5px) translateX(-4.5px);
     transition: all 0.5s;
 }
-.dropdown-toggle::after{
+
+.dropdown-toggle::after {
     display: inline-block;
     margin-left: 0;
     vertical-align: 0;
@@ -162,14 +179,17 @@ button:focus {
     right: 0;
     top: 14px;
 }
+
 .dropdown-toggle:focus {
     outline: none;
 }
+
 .show.dropdown-toggle::after {
     transform: rotate(180deg);
     transition: all 0.5s;
     color: #FF4A32;
 }
+
 .navbar-nav .dropdown-menu {
     border: none;
     border-radius: 0;
@@ -181,6 +201,7 @@ button:focus {
 #section_one {
     padding: 53px 0 0 0;
 }
+
 .bac-sec-one {
     background-image: url(../img/background-sec-one.png);
     background-position: center;
@@ -213,6 +234,7 @@ button:focus {
     line-height: 33px;
     transition: all 0.5s;
 }
+
 #section_one p {
     margin: 20px 0;
 }
@@ -394,34 +416,43 @@ button:focus {
 #section_six {
     margin: 0 0 50px 0;
 }
+
 #section_six .container {
     padding: 0px;
 }
+
 .accessories_item {
     text-align: center;
     margin: 20px 0 0 0;
 }
+
 #section_six h2 {
     margin: 0 0 20px 0;
 }
+
 .accessories a {
     margin: 0 10px;
     text-decoration: none;
 }
+
 .accessories {
     margin: 10px 0 0 0;
 }
+
 .accessories p {
     margin: 12px 0 0 0;
     color: #FF4A32;
 }
+
 .accessories span {
     color: #000000;
 }
+
 .accessories span s {
     color: #FF4A32;
     font-weight: 400;
 }
+
 .sale::after {
     content: "Sale";
     position: absolute;
@@ -432,35 +463,42 @@ button:focus {
     color: #000000;
     font-size: 12px;
 }
+
 .flickity-prev-next-button.previous svg,
 .flickity-prev-next-button.next svg {
     display: none;
 }
+
 .flickity-prev-next-button.previous {
     background-image: url(../img/arrow-previous.png);
     background-repeat: no-repeat;
     background-position: center;
     transition: all 0.5s;
 }
+
 .flickity-prev-next-button.next {
     background-image: url(../img/arrow-next.png);
     background-repeat: no-repeat;
     background-position: center;
     transition: all 0.5s;
 }
+
 /* Section Seven */
 #section_seven .container {
     background-color: #000000;
     padding: 35px 60px 50px 60px;
     text-align: center;
 }
+
 .benefits h2 {
     margin: 0 0 20px 0;
 }
+
 .benefits h2,
 .benefits p {
     color: #ffffff;
 }
+
 .benefits {
     padding: 0 22px;
 }
@@ -470,35 +508,44 @@ button:focus {
     padding: 50px 130px;
     background-color: #F7F7F7;
 }
+
 .explore a {
     display: block;
     color: #000000;
     text-decoration: none;
     cursor: pointer;
     font-size: 14px;
+    width: max-content;
     transition: all 0.5s;
 }
+
 .explore h4 {
     margin: 0 0 30px 0;
 }
-#section_eight .about h4 + p {
+
+#section_eight .about h4+p {
     margin: 30px 0;
 }
+
 .about p {
     font-size: 14px;
 }
+
 .explore a:hover {
     color: #FF4A32;
     transition: all 0.5s;
 }
+
 /* Footer */
 #footer .container {
     padding: 20px;
 }
+
 #footer p a {
     text-decoration: none;
     color: #FF4A32;
 }
+
 #footer p {
     font-size: 12px;
 }
@@ -511,42 +558,108 @@ button:focus {
     padding-top: 53px;
     margin: 0 0 30px 0;
 }
+
 .electric-skateboards .container {
     padding: 0 30px;
 }
+
 .electric-skateboards .my-line {
     margin: 30px 0 30px 0;
 }
+
 .electric-skateboards-text {
     margin: 50px 0 0 0;
 }
+
 .skateboards a {
     text-decoration: none;
 }
+
 .skateboards {
     margin: 30px 0 0 0;
 }
+
 .skateboard-item {
     text-align: center;
     position: relative;
     margin: 10px 0;
 }
+
 .skateboard-item p {
     color: #FF4A32;
 }
+
 .skateboard-item span {
     color: #000000;
 }
+
 .price {
     display: flex;
     justify-content: center;
 }
+
 .price .sale-price,
 .price .main-price {
     color: #000000;
     margin: 0 2px;
 }
+
 .price .main-price.close-price {
     text-decoration: line-through;
     color: #FF4A32;
+}
+
+
+
+/* scooters */
+#scooters {
+    padding: 103px 0 0 0;
+}
+
+.carousel {
+    margin-bottom: 40px;
+}
+
+.carousel-nav img {
+    /* height: 100px; */
+    width: 100px;
+}
+
+.carousel-nav .carousel__item:not(.is-nav-selected) {
+    opacity: 0.4;
+}
+.scooter-data {
+    padding: 50px 0 0 0;
+    margin: 0 20px;
+}
+.card-item {
+    position: relative;
+}
+#scooters .sale::after {
+    top: 0;
+    left: 0;
+    width: max-content;
+    padding: 5px 40px;
+    font-size: 15px;
+}
+#scooters .price {
+    justify-content: flex-start;
+    margin: 20px 0 0 0;
+}
+#scooters .price-info p {
+    font-size: 18px;
+}
+#scooters .price-info h2 {
+    font-weight: 700;
+}
+
+#scooters .characteristics h3 {
+    font-weight: 700;
+    margin: 20px 0;
+}
+#scooters .characteristics > p:nth-child(5) {
+    margin: 20px 0;
+}
+#scooters .speed {
+    margin: 20px 0 20px 30px;
 }
