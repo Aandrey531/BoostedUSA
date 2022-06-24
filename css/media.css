@@ -82,10 +82,13 @@
     }
 
 
-    /* scooters */
-    .scooter-slide img {
-        max-height: 500px;
+
+
+
+    .products-box .sale::after {
+        right: 5px;
     }
+    
 
 }
 
@@ -102,6 +105,9 @@
 
     .explore {
         margin: 30px 0;
+    }
+    .explore a {
+        margin: 0 auto;
     }
 }
 
@@ -131,13 +137,7 @@
 
     /* Section Six */
     .sale::after {
-        content: "Sale";
-        position: absolute;
-        top: 0;
-        right: 0;
         padding: 2px 5px;
-        background-color: #FF4A32;
-        color: #000000;
         font-size: 10px;
     }
 
@@ -161,9 +161,29 @@
         text-align: center;
     }
 
+    /* Electric Skateboards Scooters */
+
+    .electric-transports .container {
+        padding: 0 15px;
+    }
+
+
+
+
+
+
+
     /* scooters */
+    /* .carousel-nav {
+        max-width: 240px;
+        width: 100%;
+        margin: 0 auto 40px auto;
+        height: 60px;
+    }
     .carousel-nav img {
-        /* height: 100px; */
         width: 60px;
     }
+    .scooter-data {
+        margin: 0px;
+    } */
 }

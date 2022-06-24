@@ -48,6 +48,7 @@ p {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+    height: 53px;
 }
 
 #header {
@@ -87,6 +88,7 @@ p {
 
 .logo {
     margin: 0 auto;
+    width: 170px;
 }
 
 .my-menu {
@@ -198,10 +200,6 @@ button:focus {
 }
 
 /* Section One */
-#section_one {
-    padding: 53px 0 0 0;
-}
-
 .bac-sec-one {
     background-image: url(../img/background-sec-one.png);
     background-position: center;
@@ -457,7 +455,7 @@ button:focus {
     content: "Sale";
     position: absolute;
     top: 0;
-    right: 0;
+    right: 0px;
     padding: 5px 10px;
     background-color: #FF4A32;
     color: #000000;
@@ -553,43 +551,43 @@ button:focus {
 
 
 
-/* Electric Skateboards */
-.electric-skateboards {
-    padding-top: 53px;
+/* Electric Skateboards Scooters */
+.products-box {
     margin: 0 0 30px 0;
 }
 
-.electric-skateboards .container {
+.products-box .container {
     padding: 0 30px;
 }
 
-.electric-skateboards .my-line {
+.products-box .my-line {
     margin: 30px 0 30px 0;
 }
 
-.electric-skateboards-text {
+.products-box-text {
     margin: 50px 0 0 0;
 }
 
-.skateboards a {
+.products a {
     text-decoration: none;
 }
 
-.skateboards {
+.products {
     margin: 30px 0 0 0;
 }
 
-.skateboard-item {
+.product-item {
     text-align: center;
     position: relative;
     margin: 10px 0;
+    padding: 0 5px;
 }
 
-.skateboard-item p {
+.product-item p {
     color: #FF4A32;
 }
 
-.skateboard-item span {
+.product-item span {
     color: #000000;
 }
 
@@ -608,20 +606,37 @@ button:focus {
     text-decoration: line-through;
     color: #FF4A32;
 }
+.products-box .sale::after {
+    content: "Sale";
+    position: absolute;
+    top: 0;
+    right: 50px;
+    padding: 5px 10px;
+    background-color: #FF4A32;
+    color: #000000;
+    font-size: 12px;
+}
+
+
+
 
 
 
 /* scooters */
-#scooters {
+/* #scooters {
     padding: 103px 0 0 0;
 }
 
 .carousel {
     margin-bottom: 40px;
 }
-
+.carousel-nav {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto 40px auto;
+    height: 100px;
+}
 .carousel-nav img {
-    /* height: 100px; */
     width: 100px;
 }
 
@@ -662,4 +677,4 @@ button:focus {
 }
 #scooters .speed {
     margin: 20px 0 20px 30px;
-}
+} */
