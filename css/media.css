@@ -90,10 +90,12 @@
     .free-shipping img {
         width: 60px;
     }
+
     .free-shipping p {
         font-size: 22px;
         margin: 0 0 0 20px;
     }
+
     .free-shipping b {
         font-size: 22px;
         margin: 0 0 0 9px;
@@ -195,19 +197,20 @@
     .free-shipping img {
         width: 40px;
     }
+
     .free-shipping .container {
         flex-direction: column;
     }
+
     .free-shipping p {
         font-size: 18px;
         margin: 0 0 0 0px;
     }
+
     .free-shipping b {
         font-size: 18px;
         margin: 0 0 0 0px;
     }
-
-
 
 
 
@@ -218,10 +221,18 @@
         margin: 0 auto 40px auto;
         height: 60px;
     }
+
     .carousel-nav img {
         width: 60px;
     }
+
     .product-data {
         margin: 0px;
+    }
+
+    /* Contact Us */
+
+    .contact-us input {
+        width: 100%;
     }
 }
