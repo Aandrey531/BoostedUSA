@@ -11,7 +11,6 @@ navbarToggler.addEventListener("click", () => {
 });
 
 
-
 // Main page
 $('.accessories').flickity({
   freeScroll: true,
@@ -21,7 +20,7 @@ $('.accessories').flickity({
   cellAlign: 'left'
 });
 
-// scooter main
+// product-slide
 $('.carousel-main').flickity({
   wrapAround: true,
   pageDots: false

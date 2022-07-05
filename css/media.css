@@ -81,6 +81,23 @@
         padding: 50px 60px;
     }
 
+    /* Gift card */
+    .price-gift-card p:nth-child(3) {
+        margin: 10px 0 10px 0;
+    }
+
+    /* Free shipping */
+    .free-shipping img {
+        width: 60px;
+    }
+    .free-shipping p {
+        font-size: 22px;
+        margin: 0 0 0 20px;
+    }
+    .free-shipping b {
+        font-size: 22px;
+        margin: 0 0 0 9px;
+    }
 
 
 
@@ -88,7 +105,7 @@
     .products-box .sale::after {
         right: 5px;
     }
-    
+
 
 }
 
@@ -106,9 +123,16 @@
     .explore {
         margin: 30px 0;
     }
+
     .explore a {
         margin: 0 auto;
     }
+
+    /* Gift card */
+    .price-gift-card {
+        margin: 10px 0 0 0;
+    }
+
 }
 
 @media screen and (max-width: 576px) {
@@ -167,14 +191,28 @@
         padding: 0 15px;
     }
 
+    /* Free shipping */
+    .free-shipping img {
+        width: 40px;
+    }
+    .free-shipping .container {
+        flex-direction: column;
+    }
+    .free-shipping p {
+        font-size: 18px;
+        margin: 0 0 0 0px;
+    }
+    .free-shipping b {
+        font-size: 18px;
+        margin: 0 0 0 0px;
+    }
 
 
 
 
 
-
-    /* scooters */
-    /* .carousel-nav {
+    /* product map */
+    .carousel-nav {
         max-width: 240px;
         width: 100%;
         margin: 0 auto 40px auto;
@@ -183,7 +221,7 @@
     .carousel-nav img {
         width: 60px;
     }
-    .scooter-data {
+    .product-data {
         margin: 0px;
-    } */
+    }
 }

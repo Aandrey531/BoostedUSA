@@ -40,12 +40,12 @@ p {
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 1920px;
 }
 
 /* Header */
 .position-rel {
-    max-width: 1440px;
+    max-width: 1920px;
     width: 100%;
     margin: 0 auto;
     height: 53px;
@@ -53,7 +53,7 @@ p {
 
 #header {
     position: fixed;
-    max-width: 1440px;
+    max-width: 1920px;
     width: 100%;
     padding: 0 20px;
     background-color: #ffffff;
@@ -617,14 +617,82 @@ button:focus {
     font-size: 12px;
 }
 
+/* Gift card */
+.gift-card {
+    margin: 100px 0;
+}
+.gift-card img {
+    box-shadow: 0px 0px 20px -10px #000000;
+    border-radius: 15px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: transparent;
+}
+.nav-pills .nav-link.active {
+    border: 1px solid #000000!important;
+
+}
+.gift-card .nav-pills .nav-link {
+    border: 1px solid #b8b8b8;
+    border-radius: 0px;
+    font-size: 13px;
+    padding: 10px 7px!important;
+    margin: 5px 5px 0 0;
+}
+.price-gift-card {
+    margin: 0 0 0 50px;
+}
+.price-gift-card p:nth-child(3) {
+    margin: 10px 0 60px 0;
+}
+.add-to-cart {
+    padding: 10px 60px;
+    background-color: #000000;
+    color: #ffffff;
+    transition: all 0.5s;
+    border: none;
+}
+.add-to-cart:hover {
+    padding: 10px 60px;
+    background-color: #FF4A32;
+    transition: all 0.5s;
+}
+
+/* Free shipping */
+.free-shipping img {
+    width: 80px;
+}
+.free-shipping .container {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.free-shipping p {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 0 40px;
+}
+.free-shipping b {
+    color: #FF4A32;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 0 9px;
+}
+/* may like */
+.may-like {
+    margin: 30px 0;
+}
+.may-like a {
+    text-decoration: none;
+}
 
 
-
-
-
-/* scooters */
-/* #scooters {
-    padding: 103px 0 0 0;
+/* product_map */
+#product_map {
+   margin: 70px 0;
 }
 
 .carousel {
@@ -643,38 +711,41 @@ button:focus {
 .carousel-nav .carousel__item:not(.is-nav-selected) {
     opacity: 0.4;
 }
-.scooter-data {
+.product-data {
     padding: 50px 0 0 0;
     margin: 0 20px;
 }
 .card-item {
     position: relative;
 }
-#scooters .sale::after {
+#product_map .sale::after {
     top: 0;
     left: 0;
     width: max-content;
     padding: 5px 40px;
     font-size: 15px;
 }
-#scooters .price {
+#product_map .price {
     justify-content: flex-start;
     margin: 20px 0 0 0;
 }
-#scooters .price-info p {
+#product_map .price-info p {
     font-size: 18px;
 }
-#scooters .price-info h2 {
+#product_map .price-info h2 {
     font-weight: 700;
 }
 
-#scooters .characteristics h3 {
+#product_map .characteristics h3 {
     font-weight: 700;
     margin: 20px 0;
 }
-#scooters .characteristics > p:nth-child(5) {
-    margin: 20px 0;
+#product_map .characteristics p {
+    margin: 15px 0;
 }
-#scooters .speed {
-    margin: 20px 0 20px 30px;
-} */
+#product_map .characteristics ul {
+    padding: 0 0 0 18px;
+}
+#product_map .carousel-main img {
+    margin: 0 100px;
+}
